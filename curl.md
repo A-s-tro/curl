@@ -17,5 +17,9 @@ curl demo.ine.local/uploads/ --upload-file jasee.txt
 curl -X DELETE demo.ine.local/uploads/jasee.txt
 curl demo.ine.local/uploads/ --upload-file jasee.txt && echo "Success: Uploaded jasee.txt"    # for the messages
 curl -X OPTIONS www.topjobs.lk -I
+curl -I http://www.sliate.ac.lk | grep "Server"
+curl -s http://www.sliate.ac.lk | grep -i "version"
+
+
 
 ```
